@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>Prompt Generation | buildspace</title>
+        <title>Midjourney V5 Prompt Generation</title>
       </Head>
       <div className="container">
         <div className="header">
