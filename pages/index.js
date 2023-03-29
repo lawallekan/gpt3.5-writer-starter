@@ -33,6 +33,10 @@ const Home = () => {
     setUserInput(event.target.value);
   };
 
+  const onCopyOutput = () => {
+    navigator.clipboard.writeText(apiOutput);
+  }
+
   return (
     <div className="root">
       <Head>
@@ -70,10 +74,13 @@ const Home = () => {
           <div className="output-header-container">
             <div className="output-header">
               <h3>Output</h3>
+              <button className="copy-button" onClick={onCopyOutput}>Copy</button>
             </div>
           </div>
           <div className="output-content">
-            <p>{apiOutput}</p>
+            <div className="output-box">
+              <p>{apiOutput}</p>
+            </div>
           </div>
         </div>
       )}
