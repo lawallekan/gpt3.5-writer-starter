@@ -40,6 +40,21 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
+     <header>
+    <div class="company-logo">D</div>
+    <nav class="navbar">
+      <ul class="nav-items">
+        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">OFFER</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">SHOP</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <i class="bx bx-menu"></i>
+      <i class="bx bx-x"></i>
+    </div>
+  </header>
         <title>Midjourney V5 Prompt Generation</title>
       </Head>
       <div className="container">
@@ -83,15 +98,16 @@ const Home = () => {
 </div>
         </div>
       )}
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-        </a>
-      </div>
-    </div>
+     <div className="badge-container grow">
+  <a href="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer"></a>
+</div>
+<footer>
+  <div className="footer-content">
+    <p>Copyright © 2023 Midjourney
+      <a href="#">About Us</a>
+    </p>
+  </div>
+</footer>
   );
 };
 
