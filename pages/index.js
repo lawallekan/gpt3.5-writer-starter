@@ -70,18 +70,17 @@ const Home = () => {
         </div>
       </div>
       {apiOutput && (
-        <div className="output">
-          <div className="output-header-container">
-            <div className="output-header">
-              <h3>Output</h3>
-              <button className="copy-button" onClick={onCopyOutput}>Copy</button>
-            </div>
-          </div>
-          <div className="output-content">
-            <div className="output-box">
-              <p>{apiOutput}</p>
-            </div>
-          </div>
+       <div className="output">
+  <div className="output-header-container">
+    <div className="output-header">
+      <h3>Output</h3>
+      <button onClick={() => navigator.clipboard.writeText(apiOutput)}>Copy</button>
+    </div>
+  </div>
+  <div className="output-content">
+    <p>{apiOutput}</p>
+  </div>
+</div>
         </div>
       )}
       <div className="badge-container grow">
