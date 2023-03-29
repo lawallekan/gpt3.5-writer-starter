@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useState } from 'react';
 import buildspaceLogo from '../assets/buildspace-logo.png';
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
