@@ -94,7 +94,6 @@ const Home = () => {
     <p>{apiOutput}</p>
   </div>
 </div>
-        </div>
       )}
      <div className="badge-container grow">
   <a href="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer"></a>
@@ -106,6 +105,7 @@ const Home = () => {
     </p>
   </div>
 </footer>
+</div>
   );
 };
 
