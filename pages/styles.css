@@ -1,80 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400");
-
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--dark-color);
-  padding: 1rem 2rem;
-}
-.company-logo {
-  font-size: 2.5rem;
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.nav-items {
-  display: flex;
-}
-.nav-item {
-  margin: 0 2rem;
-}
-.nav-link {
-  font-size: 1.1rem;
-  letter-spacing: 0.05rem;
-  position: relative;
-  background: -webkit-linear-gradient(
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.nav-link::before {
-  content: "";
-  background: linear-gradient(var(--primary-color), var(--primary-color-alt));
-  width: 100%;
-  height: 0.05rem;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 150ms;
-}
-.nav-link:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-.menu-toggle {
-  display: none;
-}
-.bx-menu,
-.bx-x {
-  cursor: pointer;
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: none !important;
-}
-
-
 
 
 .output {
   border: 2px solid #ddd;
   border-radius: 5px;
-  padding: 10px;
+  padding: 50px;
   margin-top: 20px;
 }
 
@@ -406,7 +336,7 @@ textarea {
     gap: 16px;
     height: min-content;
     overflow: hidden;
-    padding: 0px;
+    padding: 30px;
     position: relative;
     width: 100%;
 }
