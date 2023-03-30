@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useState } from 'react';
 import buildspaceLogo from '../assets/buildspace-logo.png';
-<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
@@ -41,7 +40,6 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-     <header>
     <div class="company-logo">D</div>
     <nav class="navbar">
       <ul class="nav-items">
@@ -55,7 +53,6 @@ const Home = () => {
       <i class="bx bx-menu"></i>
       <i class="bx bx-x"></i>
     </div>
-  </header>
         <title>Midjourney V5 Prompt Generation</title>
       </Head>
       <div className="container">
