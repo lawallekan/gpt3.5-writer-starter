@@ -21,10 +21,10 @@ const Home = () => {
     });
 
     const data = await response.json();
-const output = data.output;
-console.log("OpenAI replied...", output.text);
+    const { output } = data;
+    console.log("OpenAI replied...", data.output.text);
 
-setApiOutput(`${output.text}`);
+    setApiOutput(`${output.text}`);
     setIsGenerating(false);
   };
   
