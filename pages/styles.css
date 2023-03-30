@@ -293,6 +293,7 @@ textarea {
     overflow: hidden;
     padding: 30px;
     position: relative;
+    border-top: 1px solid white;
     width: 100%;
 }
 
