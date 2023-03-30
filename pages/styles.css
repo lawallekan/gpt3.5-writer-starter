@@ -1,52 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
 
-
-.output {
-  border: 2px solid #ddd;
-  border-radius: 5px;
-  padding: 50px;
-  margin-top: 20px;
-}
-
-.output-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.copy-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 8px 16px;
-  cursor: pointer;
-}
-
-.copy-button:hover {
-  background-color: #3e8e41;
-}
-
-.output-textarea {
-  width: 50%;
-  height: 200px;
-  border: none;
-  background-color: #f2f2f2;
-  padding: 10px;
-  margin-top: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #f6f8fa;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  min-height: 150px;
-}
-
 body {
     margin: 0;
-    padding: 0;
+    padding: 10;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -61,7 +17,6 @@ body {
     overflow: auto;
     padding: 0px;
     position: relative;
-    margin-bottom: 0px;
 }
 
 .container {
@@ -434,12 +389,7 @@ textarea {
         width: 100%;
     }
 }
-.footer {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
+
 
 
  /* Loading ring animation */
